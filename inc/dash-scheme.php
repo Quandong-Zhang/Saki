@@ -1,6 +1,6 @@
 <?php
 /*
- * https://2heng.xin/wp-content/themes/Saki/inc/dash-schame.php?color_1=&color_2=&color_3=&color_4=
+ * https://2heng.xin/wp-content/themes/Sakura/inc/dash-schame.php?color_1=&color_2=&color_3=&color_4=
  */
 
 ini_set('display_errors', true);

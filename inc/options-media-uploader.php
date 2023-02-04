@@ -48,15 +48,15 @@ function optionsframework_uploader( $_id, $_value, $_desc = '', $_name = '' ) {
 	if ( $value ) {
 		$class = ' has-file';
 	}
-	$output .= '<input id="' . $id . '" class="upload' . $class . '" type="text" name="'.$name.'" value="' . $value . '" placeholder="' . __('Choose file', 'Saki') .'" />' . "\n";
+	$output .= '<input id="' . $id . '" class="upload' . $class . '" type="text" name="'.$name.'" value="' . $value . '" placeholder="' . __('Choose file', 'sakura') .'" />' . "\n";
 	if ( function_exists( 'wp_enqueue_media' ) ) {
 		if ( ( $value == '' ) ) {
-			$output .= '<input id="upload-' . $id . '" class="upload-button button" type="button" value="' . __( 'Upload', 'Saki' ) . '" />' . "\n";
+			$output .= '<input id="upload-' . $id . '" class="upload-button button" type="button" value="' . __( 'Upload', 'sakura' ) . '" />' . "\n";
 		} else {
-			$output .= '<input id="remove-' . $id . '" class="remove-file button" type="button" value="' . __( 'Remove', 'Saki' ) . '" />' . "\n";
+			$output .= '<input id="remove-' . $id . '" class="remove-file button" type="button" value="' . __( 'Remove', 'sakura' ) . '" />' . "\n";
 		}
 	} else {
-		$output .= '<p><i>' . __( 'Upgrade your version of WordPress for full media support.', 'Saki' ) . '</i></p>';
+		$output .= '<p><i>' . __( 'Upgrade your version of WordPress for full media support.', 'sakura' ) . '</i></p>';
 	}
 
 	if ( $_desc != '' ) {
@@ -80,7 +80,7 @@ function optionsframework_uploader( $_id, $_value, $_desc = '', $_name = '' ) {
 			$output .= '';
 
 			// Standard generic output if it's not an image.
-			$title = __( 'View File', 'Saki' );
+			$title = __( 'View File', 'sakura' );
 			$output .= '<div class="no-image"><span class="file_link"><a href="' . $value . '" target="_blank" rel="external">'.$title.'</a></span></div>';
 		}
 	}
@@ -110,8 +110,8 @@ function optionsframework_media_scripts( $hook ) {
 	wp_register_script( 'of-media-uploader', OPTIONS_FRAMEWORK_DIRECTORY .'js/media-uploader.js', array( 'jquery' ) );
 	wp_enqueue_script( 'of-media-uploader' );
 	wp_localize_script( 'of-media-uploader', 'optionsframework_l10n', array(
-		'upload' => __( 'Upload', 'Saki' ),
-		'remove' => __( 'Remove', 'Saki' )
+		'upload' => __( 'Upload', 'sakura' ),
+		'remove' => __( 'Remove', 'sakura' )
 	) );
 }
 

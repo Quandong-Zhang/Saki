@@ -1,14 +1,14 @@
-Saki🌸: A Wonderful WordPress Theme
+Sakura🌸: A Wonderful WordPress Theme
 ===
 
 [中文](README.md) | English
 
-![Saki](screenshot.jpg)
+![Sakura](screenshot.jpg)
 
 ![PHP version](https://img.shields.io/badge/PHP-7.1+-4F5B93.svg?style=flat-square&logo=php)
 ![WP version](https://img.shields.io/badge/WordPress-5.3-0073aa.svg?style=flat-square&logo=wordpress)
-[![GitHub release](https://img.shields.io/github/release/mashirozx/Saki.svg?style=flat-square)](https://github.com/mashirozx/Saki/releases/latest)
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/mashirozx/Saki/latest/dev.svg?style=flat-square)](https://github.com/mashirozx/Saki/commits/dev)
+[![GitHub release](https://img.shields.io/github/release/mashirozx/Sakura.svg?style=flat-square)](https://github.com/mashirozx/Sakura/releases/latest)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/mashirozx/Sakura/latest/dev.svg?style=flat-square)](https://github.com/mashirozx/Sakura/commits/dev)
 [![](https://data.jsdelivr.com/v1/package/gh/moezx/cdn/badge)](https://www.jsdelivr.com/package/gh/moezx/cdn)
 
 Modified based on theme [Akina (by Fuzzz)](http://www.akina.pw/themeakina) and [Siren (by Louie)](https://github.com/louie-senpai/Siren).
@@ -20,23 +20,23 @@ The rebuild version is on the way :)
 #### By GIT
 ```bash
 cd /wp-content/themes/
-git clone https://github.com/mashirozx/Saki.git
+git clone https://github.com/mashirozx/Sakura.git
 ```
 
 #### By FTP
-**Rename the theme folder name as `Saki`** if you download form the green [Clone or download] button on this page. Make sure the path to the theme root is /wp-content/themes/Saki/`.
+**Rename the theme folder name as `Sakura`** if you download form the green [Clone or download] button on this page. Make sure the path to the theme root is /wp-content/themes/Sakura/`.
 
 ### Configuration
-Config your theme at `Mune-Appearance-Saki Options`. Please turn on `Use js and css file of the theme locally` under CDN tag if you want to modify local SCC an Javascript files.
+Config your theme at `Mune-Appearance-Sakura Options`. Please turn on `Use js and css file of the theme locally` under CDN tag if you want to modify local SCC an Javascript files.
 
 ### Update
 ```bash
-cd /wp-content/themes/Saki
+cd /wp-content/themes/Sakura
 git fetch
 git pull
 ```
 
-[Learn more info about the theme (Chinese)](https://2heng.xin/theme-Saki/)
+[Learn more info about the theme (Chinese)](https://2heng.xin/theme-sakura/)
 
 Enjoy it!
 

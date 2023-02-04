@@ -1,5 +1,5 @@
 /*！
- * Saki theme application bundle
+ * Sakura theme application bundle
  * @author Mashiro
  * @url https://2heng.xin
  * @date 2019.8.3
@@ -194,7 +194,7 @@ function attach_image() {
             var formData = new FormData();
             formData.append('cmt_img_file', f);
             $.ajax({
-                url: Poi.api + 'Saki/v1/image/upload?_wpnonce=' + Poi.nonce,
+                url: Poi.api + 'sakura/v1/image/upload?_wpnonce=' + Poi.nonce,
                 type: 'POST',
                 processData: false,
                 contentType: false,
@@ -313,11 +313,11 @@ function scrollBar() {
 
 function checkskinSecter() {
     if (mashiro_global.variables.skinSecter === false) {
-        $(".pattern-center").removeClass('pattern-center').addClass('pattern-center-Saki');
-        $(".headertop-bar").removeClass('headertop-bar').addClass('headertop-bar-Saki');
+        $(".pattern-center").removeClass('pattern-center').addClass('pattern-center-sakura');
+        $(".headertop-bar").removeClass('headertop-bar').addClass('headertop-bar-sakura');
     } else {
-        $(".pattern-center-Saki").removeClass('pattern-center-Saki').addClass('pattern-center');
-        $(".headertop-bar-Saki").removeClass('headertop-bar-Saki').addClass('headertop-bar');
+        $(".pattern-center-sakura").removeClass('pattern-center-sakura').addClass('pattern-center');
+        $(".headertop-bar-sakura").removeClass('headertop-bar-sakura').addClass('headertop-bar');
     }
 }
 
@@ -417,7 +417,7 @@ $(document).ready(function () {
                     case "white-bg":
                         $("body").css("background-image", "url(" + checkskin_bg(mashiro_option.skin_bg0) + ")");
                         break;
-                    case "Saki-bg":
+                    case "sakura-bg":
                         $("body").css("background-image", "url(" + checkskin_bg(mashiro_option.skin_bg1) + ")");
                         break;
                     case "gribs-bg":
@@ -606,7 +606,7 @@ function coverVideoIni() {
         if (mashiro_global.variables.has_hls){
             loadHls();
         }else{
-            $.getScript("https://cdn.jsdelivr.net/gh/mashirozx/Saki@3.3.3/cdn/js/src/16.hls.js", function(){
+            $.getScript("https://cdn.jsdelivr.net/gh/mashirozx/Sakura@3.3.3/cdn/js/src/16.hls.js", function(){
                 loadHls();
                 mashiro_global.variables.has_hls = true;
               });
@@ -633,7 +633,7 @@ function tableOfContentScroll(flag) {
     } else {
         if (flag) {
             var id = 1,
-                heading_fix = mashiro_option.entry_content_theme == "Saki" ? $("article").hasClass("type-post") ? $("div").hasClass("pattern-attachment-img") ? -75 : 200 : 375 : window.innerHeight / 2;
+                heading_fix = mashiro_option.entry_content_theme == "sakura" ? $("article").hasClass("type-post") ? $("div").hasClass("pattern-attachment-img") ? -75 : 200 : 375 : window.innerHeight / 2;
             $(".entry-content , .links").children("h1,h2,h3,h4,h5").each(function () {
                 var hyphenated = "toc-head-" + id;
                 this.id = hyphenated;
@@ -1450,7 +1450,7 @@ var home = location.href,
                 $('html').css('overflow-y', 'hidden');
                 if (mashiro_option.live_search) {
                     var QueryStorage = [];
-                    search_a(Poi.api + "Saki/v1/cache_search/json?_wpnonce=" + Poi.nonce);
+                    search_a(Poi.api + "sakura/v1/cache_search/json?_wpnonce=" + Poi.nonce);
 
                     var otxt = addComment.I("search-input"),
                         list = addComment.I("PostlistBox"),

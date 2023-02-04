@@ -9,7 +9,7 @@
  * Released under the MIT license
  */
 
-namespace Saki\API;
+namespace Sakura\API;
 
 class Meting
 {
