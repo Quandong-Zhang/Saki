@@ -32,7 +32,7 @@
 			<p style="font-family: 'Ubuntu', sans-serif;">
 					<span style="color: #b9b9b9;">
 						<?php /* 能保留下面两个链接吗？算是我一个小小的心愿吧~ */ ?>
-						Theme <a href="https://github.com/Quandong-Zhang/Saki/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Saki</a> by <a href="https://rerange.xyz/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Rerange</a> , <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a><br/>and other contributors.</br>
+						Theme <a href="https://github.com/Quandong-Zhang/Saki/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Saki</a> by <a href="https:./" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Rerange</a> , <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a><br/>and other contributors.</br>
 						<i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i>
 					</span>
 				</p>

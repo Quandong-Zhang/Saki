@@ -475,19 +475,19 @@ function get_author_class($comment_author_email, $user_id)
         "SELECT comment_ID as author_count FROM $wpdb->comments WHERE comment_author_email = '$comment_author_email' "));
     if ($author_count >= 1 && $author_count < 5) //数字可自行修改，代表评论次数。
     {
-        echo '<span class="showGrade0" title="Lv0"><img src="//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_0.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
+        echo '<span class="showGrade0" title="Lv0"><img src="./wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_0.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
     } else if ($author_count >= 6 && $author_count < 10) {
-        echo '<span class="showGrade1" title="Lv1"><img src="//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_1.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
+        echo '<span class="showGrade1" title="Lv1"><img src="./wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_1.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
     } else if ($author_count >= 10 && $author_count < 20) {
-        echo '<span class="showGrade2" title="Lv2"><img src="//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_2.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
+        echo '<span class="showGrade2" title="Lv2"><img src="./wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_2.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
     } else if ($author_count >= 20 && $author_count < 40) {
-        echo '<span class="showGrade3" title="Lv3"><img src="//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_3.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
+        echo '<span class="showGrade3" title="Lv3"><img src="./wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_3.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
     } else if ($author_count >= 40 && $author_count < 80) {
-        echo '<span class="showGrade4" title="Lv4"><img src="//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_4.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
+        echo '<span class="showGrade4" title="Lv4"><img src="./wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_4.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
     } else if ($author_count >= 80 && $author_count < 160) {
-        echo '<span class="showGrade5" title="Lv5"><img src="//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_5.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
+        echo '<span class="showGrade5" title="Lv5"><img src="./wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_5.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
     } else if ($author_count >= 160) {
-        echo '<span class="showGrade6" title="Lv6"><img src="//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_6.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
+        echo '<span class="showGrade6" title="Lv6"><img src="./wp-content/themes/Sakura/local/cdn/img/Sakura/images/level/level_6.svg" style="height: 1.5em; max-height: 1.5em; display: inline-block;"></span>';
     }
 
 }
@@ -838,7 +838,7 @@ function custom_html()
     $loginbg = 'https://service-maje0tjg-1304991672.nj.apigw.tencentcs.com/release/';
     echo '<script type="text/javascript" src="' . get_template_directory_uri() . '/js/login.js"></script>' . "\n";
     echo '<script type="text/javascript">' . "\n";
-    echo 'jQuery("body").prepend("<div class=\"loading\"><img src=\"//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/login_loading.gif\" width=\"58\" height=\"10\"></div><div id=\"bg\"><img /></div>");' . "\n";
+    echo 'jQuery("body").prepend("<div class=\"loading\"><img src=\"./wp-content/themes/Sakura/local/cdn/img/Sakura/images/login_loading.gif\" width=\"58\" height=\"10\"></div><div id=\"bg\"><img /></div>");' . "\n";
     echo 'jQuery(\'#bg\').children(\'img\').attr(\'src\', \'' . $loginbg . '\').load(function(){' . "\n";
     echo '	resizeImage(\'bg\');' . "\n";
     echo '	jQuery(window).bind("resize", function() { resizeImage(\'bg\'); });' . "\n";
@@ -1078,7 +1078,7 @@ add_filter('comment_text', 'comment_picture_support');
 add_filter('smilies_src', 'custom_smilies_src', 1, 10);
 function custom_smilies_src($img_src, $img, $siteurl)
 {
-    return '//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/smilies/' . $img;
+    return './wp-content/themes/Sakura/local/cdn/img/Sakura/images/smilies/' . $img;
 }
 // 简单遍历系统表情库，今后应考虑标识表情包名——使用增加的扩展名，同时保留原有拓展名
 // 还有一个思路是根据表情调用路径来判定<-- 此法最好！
@@ -1089,7 +1089,7 @@ function push_smilies()
     foreach ($wpsmiliestrans as $k => $v) {
         $Sname = str_replace(":", "", $k);
         $Svalue = $v;
-        $return_smiles = $return_smiles . '<span title="' . $Sname . '" onclick="grin(' . "'" . $Sname . "'" . ')"><img src="//rerange.xyz/wp-content/themes/Sakura/local/cdn/img/Sakura/images/smilies/' . $Svalue . '" /></span>';
+        $return_smiles = $return_smiles . '<span title="' . $Sname . '" onclick="grin(' . "'" . $Sname . "'" . ')"><img src="./wp-content/themes/Sakura/local/cdn/img/Sakura/images/smilies/' . $Svalue . '" /></span>';
     }
     return $return_smiles;
 }
