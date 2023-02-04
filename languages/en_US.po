@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Sakura\n"
+"Project-Id-Version: Saki\n"
 "POT-Creation-Date: 2020-08-06 17:39+0800\n"
 "PO-Revision-Date: 2020-08-06 17:39+0800\n"
 "Last-Translator: \n"
@@ -249,7 +249,7 @@ msgstr ""
 
 #: inc/options-framework.php:182 inc/options-framework.php:183
 #: inc/options-framework.php:412
-msgid "Sakura Options"
+msgid "Saki Options"
 msgstr ""
 
 #: inc/options-framework.php:228
@@ -825,7 +825,7 @@ msgstr ""
 #, php-format
 msgid ""
 "Fill in the manifest path for random picture display, please refer to <a "
-"href = \"https: //github.com/mashirozx/Sakura/wiki/options\">Wiki </a>. If "
+"href = \"https: //github.com/mashirozx/Saki/wiki/options\">Wiki </a>. If "
 "you select webp images above, click <a href = \"%s\">here</a> to update "
 "manifest"
 msgstr ""
@@ -988,7 +988,7 @@ msgid "Post style"
 msgstr ""
 
 #: options.php:577
-msgid "Sakura"
+msgid "Saki"
 msgstr ""
 
 #: options.php:578 options.php:673
@@ -1509,7 +1509,7 @@ msgid "The front-end library don't load from jsDelivr, not recommand"
 msgstr ""
 
 #: options.php:1040
-msgid "Use js and css file of the theme (sakura-app.js、style.css) locally"
+msgid "Use js and css file of the theme (Saki-app.js、style.css) locally"
 msgstr ""
 
 #: options.php:1041
@@ -1529,10 +1529,10 @@ msgstr ""
 #: options.php:1053
 #, php-format
 msgid ""
-"Theme Sakura v %s  |  <a href=\"https://2heng.xin/theme-sakura/\">Theme "
-"document</a>  |  <a href=\"https://github.com/mashirozx/Sakura/\">Source "
-"code</a><a href=\"https://github.com/mashirozx/Sakura/releases/latest\"><img "
-"src=\"https://img.shields.io/github/release/mashirozx/Sakura.svg?style=flat-"
+"Theme Saki v %s  |  <a href=\"https://2heng.xin/theme-Saki/\">Theme "
+"document</a>  |  <a href=\"https://github.com/mashirozx/Saki/\">Source "
+"code</a><a href=\"https://github.com/mashirozx/Saki/releases/latest\"><img "
+"src=\"https://img.shields.io/github/release/mashirozx/Saki.svg?style=flat-"
 "square\" alt=\"GitHub release\"></a>"
 msgstr ""
 
@@ -1727,7 +1727,7 @@ msgstr ""
 
 #: options.php:1205
 msgid ""
-"Default off，<a href=\"https://github.com/mashirozx/Sakura/wiki/Fancybox"
+"Default off，<a href=\"https://github.com/mashirozx/Saki/wiki/Fancybox"
 "\">please read wiki</a>"
 msgstr ""
 
@@ -1816,7 +1816,7 @@ msgid "Attribution-NonCommercial-ShareAlike 4.0 International"
 msgstr ""
 
 #: user/page-bangumi.php:30
-msgid "Please fill in the Bilibili UID in Sakura Options."
+msgid "Please fill in the Bilibili UID in Saki Options."
 msgstr ""
 
 #: user/page-login.php:18

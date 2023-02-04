@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Sakura\n"
+"Project-Id-Version: Saki\n"
 "POT-Creation-Date: 2020-08-06 17:39+0800\n"
 "PO-Revision-Date: 2020-08-06 17:42+0800\n"
 "Last-Translator: \n"
@@ -254,8 +254,8 @@ msgstr "该评论为私密评论"
 
 #: inc/options-framework.php:182 inc/options-framework.php:183
 #: inc/options-framework.php:412
-msgid "Sakura Options"
-msgstr "Sakura主题设置"
+msgid "Saki Options"
+msgstr "Saki主题设置"
 
 #: inc/options-framework.php:228
 msgid "Clear"
@@ -836,12 +836,12 @@ msgstr "内置原图随机图（默认）"
 #, php-format
 msgid ""
 "Fill in the manifest path for random picture display, please refer to <a "
-"href = \"https: //github.com/mashirozx/Sakura/wiki/options\">Wiki </a>. If "
+"href = \"https: //github.com/mashirozx/Saki/wiki/options\">Wiki </a>. If "
 "you select webp images above, click <a href = \"%s\">here</a> to update "
 "manifest"
 msgstr ""
 "填写 manifest 路径，更多信息请参考<a href=\"https://github.com/mashirozx/"
-"Sakura/wiki/options\">Wiki</a>,，如果你在上面选择了webp优化，点击<a href = "
+"Saki/wiki/options\">Wiki</a>,，如果你在上面选择了webp优化，点击<a href = "
 "\"%s\">这里</a>更新 manifest"
 
 #: options.php:410
@@ -1004,7 +1004,7 @@ msgid "Post style"
 msgstr "文章样式"
 
 #: options.php:577
-msgid "Sakura"
+msgid "Saki"
 msgstr "默认样式"
 
 #: options.php:578 options.php:673
@@ -1551,8 +1551,8 @@ msgid "The front-end library don't load from jsDelivr, not recommand"
 msgstr "前端库不走 jsDelivr，不建议启用"
 
 #: options.php:1040
-msgid "Use js and css file of the theme (sakura-app.js、style.css) locally"
-msgstr "本地调用主题 js、css 文件（sakura-app.js、style.css）"
+msgid "Use js and css file of the theme (Saki-app.js、style.css) locally"
+msgstr "本地调用主题 js、css 文件（Saki-app.js、style.css）"
 
 #: options.php:1041
 msgid ""
@@ -1571,16 +1571,16 @@ msgstr "关于"
 #: options.php:1053
 #, php-format
 msgid ""
-"Theme Sakura v %s  |  <a href=\"https://2heng.xin/theme-sakura/\">Theme "
-"document</a>  |  <a href=\"https://github.com/mashirozx/Sakura/\">Source "
-"code</a><a href=\"https://github.com/mashirozx/Sakura/releases/latest\"><img "
-"src=\"https://img.shields.io/github/release/mashirozx/Sakura.svg?style=flat-"
+"Theme Saki v %s  |  <a href=\"https://2heng.xin/theme-Saki/\">Theme "
+"document</a>  |  <a href=\"https://github.com/mashirozx/Saki/\">Source "
+"code</a><a href=\"https://github.com/mashirozx/Saki/releases/latest\"><img "
+"src=\"https://img.shields.io/github/release/mashirozx/Saki.svg?style=flat-"
 "square\" alt=\"GitHub release\"></a>"
 msgstr ""
-"Theme Sakura v %s  |  <a href=\"https://2heng.xin/theme-sakura/\">主题说明</"
-"a>  |  <a href=\"https://github.com/mashirozx/Sakura/\">源码</a><a href="
-"\"https://github.com/mashirozx/Sakura/releases/latest\"><img src=\"https://"
-"img.shields.io/github/release/mashirozx/Sakura.svg?style=flat-square\" alt="
+"Theme Saki v %s  |  <a href=\"https://2heng.xin/theme-Saki/\">主题说明</"
+"a>  |  <a href=\"https://github.com/mashirozx/Saki/\">源码</a><a href="
+"\"https://github.com/mashirozx/Saki/releases/latest\"><img src=\"https://"
+"img.shields.io/github/release/mashirozx/Saki.svg?style=flat-square\" alt="
 "\"GitHub release\"></a>"
 
 #: options.php:1059
@@ -1785,10 +1785,10 @@ msgstr "启用 baguetteBox"
 
 #: options.php:1205
 msgid ""
-"Default off，<a href=\"https://github.com/mashirozx/Sakura/wiki/Fancybox"
+"Default off，<a href=\"https://github.com/mashirozx/Saki/wiki/Fancybox"
 "\">please read wiki</a>"
 msgstr ""
-"默认禁用，<a href=\"https://github.com/mashirozx/Sakura/wiki/Fancybox\">请阅"
+"默认禁用，<a href=\"https://github.com/mashirozx/Saki/wiki/Fancybox\">请阅"
 "读说明</a>"
 
 #: options.php:1211
@@ -1877,7 +1877,7 @@ msgid "Attribution-NonCommercial-ShareAlike 4.0 International"
 msgstr "知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议"
 
 #: user/page-bangumi.php:30
-msgid "Please fill in the Bilibili UID in Sakura Options."
+msgid "Please fill in the Bilibili UID in Saki Options."
 msgstr "请在后台设置填写 Bilibili UID 后继续。"
 
 #: user/page-login.php:18
@@ -2007,11 +2007,11 @@ msgstr "暂未开放注册。"
 
 #~ msgid ""
 #~ "Leave blank here to use the built-in API (please read <a href=\"https://"
-#~ "github.com/mashirozx/Sakura/blob/dev/manifest/README.md\"> README </a> "
+#~ "github.com/mashirozx/Saki/blob/dev/manifest/README.md\"> README </a> "
 #~ "for help first)"
 #~ msgstr ""
 #~ "此处留空则使用内置API（请先阅读<a href=\"https://github.com/mashirozx/"
-#~ "Sakura/blob/dev/manifest/README.md\">README</a>查看帮助）"
+#~ "Saki/blob/dev/manifest/README.md\">README</a>查看帮助）"
 
 #~ msgid ""
 #~ "Leave blank here to use the built-in API (write the URL of the image that "

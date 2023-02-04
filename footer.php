@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Sakura
+ * @package Saki
  */
 
 ?>
@@ -20,11 +20,11 @@
 	?>
 	</div><!-- #page Pjax container-->
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info" theme-info="Sakura v<?php echo SAKURA_VERSION; ?>">
+		<div class="site-info" theme-info="Saki v<?php echo Saki_VERSION; ?>">
 			<div class="footertext">
 				<div class="img-preload">
-					<img src="https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/wordpress-rotating-ball-o.svg">
-					<img src="https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/disqus-preloader.svg">
+					<img src="https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Saki/images/wordpress-rotating-ball-o.svg">
+					<img src="https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Saki/images/disqus-preloader.svg">
 				</div>
 				<p style="color: #666666;"><?php echo akina_option('footer_info', ''); ?></p>
 			</div>
@@ -33,7 +33,7 @@
 					<span style="color: #b9b9b9;">
 						<?php /* 能保留下面两个链接吗？算是我一个小小的心愿吧~ */ ?>
 						Theme <a href="https://github.com/Quandong-Zhang/Saki/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Saki</a> by <a href="https://rerange.xyz/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Rerange</a> , <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a><br/>and other contributors.</br>
-						<i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i>
+						<i class="iconfont icon-Saki rotating" style="color: #ffc0cb;display:inline-block"></i>
 					</span>
 				</p>
 			</div>
@@ -60,7 +60,7 @@
 		</div>
 		<div class="m-search">
 			<form class="m-search-form" method="get" action="<?php echo home_url(); ?>" role="search">
-				<input class="m-search-input" type="search" name="s" placeholder="<?php _e('Search...', 'sakura') /*搜索...*/?>" required>
+				<input class="m-search-input" type="search" name="s" placeholder="<?php _e('Search...', 'Saki') /*搜索...*/?>" required>
 			</form>
 		</div>
 		<?php wp_nav_menu( array( 'depth' => 2, 'theme_location' => 'primary', 'container' => false ) ); ?>
@@ -74,7 +74,7 @@
 		<?php if(akina_option('live_search')){ ?>
 			<div class="micro">
 				<i class="iconfont icon-search"></i>
-				<input id="search-input" class="text-input" type="search" name="s" placeholder="<?php _e('Want to find something?', 'sakura') /*想要找点什么呢*/?>" required>
+				<input id="search-input" class="text-input" type="search" name="s" placeholder="<?php _e('Want to find something?', 'Saki') /*想要找点什么呢*/?>" required>
 			</div>
 			<div class="ins-section-wrapper">
                 <a id="Ty" href="#"></a>
@@ -82,9 +82,9 @@
             </div>
 		<?php }else{ ?>
 			<div class="micro">
-				<p class="micro mb-"><?php _e('Want to find something?', 'sakura') /*想要找点什么呢*/?></p>
+				<p class="micro mb-"><?php _e('Want to find something?', 'Saki') /*想要找点什么呢*/?></p>
 				<i class="iconfont icon-search"></i>
-				<input class="text-input" type="search" name="s" placeholder="<?php _e('Search', 'sakura') ?>" required>
+				<input class="text-input" type="search" name="s" placeholder="<?php _e('Search', 'Saki') ?>" required>
 			</div>
 		<?php } ?>
 		</div>
@@ -110,9 +110,9 @@
             <li id="white-bg">
                 <i class="fa fa-television" aria-hidden="true"></i>
             </li><!--Default-->
-            <li id="sakura-bg">
-                <i class="iconfont icon-sakura"></i>
-            </li><!--Sakura-->
+            <li id="Saki-bg">
+                <i class="iconfont icon-Saki"></i>
+            </li><!--Saki-->
             <li id="gribs-bg">
                 <i class="fa fa-slack" aria-hidden="true"></i>
             </li><!--Grids-->
@@ -141,11 +141,11 @@
     </div>
 </div>
 <canvas id="night-mode-cover"></canvas>
-<?php if (akina_option('sakura_widget')) : ?>
+<?php if (akina_option('Saki_widget')) : ?>
 	<aside id="secondary" class="widget-area" role="complementary" style="left: -400px;">
     <div class="heading"><?php _e('Widgets') /*小工具*/ ?></div>
-    <div class="sakura_widget">
-	<?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('sakura_widget')) : endif; ?>
+    <div class="Saki_widget">
+	<?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Saki_widget')) : endif; ?>
 	</div>
 	<div class="show-hide-wrap"><button class="show-hide"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32"><path d="M22 16l-10.105-10.6-1.895 1.987 8.211 8.613-8.211 8.612 1.895 1.988 8.211-8.613z"></path></svg></button></div>
     </aside>

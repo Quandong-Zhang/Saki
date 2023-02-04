@@ -3,17 +3,17 @@
  */
 
 @font-face {
-    font-family: "sakuraso";
-    src: url("inc/fonts/SAKURASO/sakuraso.eot"); /* IE9 */
-    src: url("inc/fonts/SAKURASO/sakuraso.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("inc/fonts/SAKURASO/sakuraso.woff") format("woff"), /* chrome、firefox */
-    url("inc/fonts/SAKURASO/sakuraso.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-    url("inc/fonts/SAKURASO/sakuraso.svg#uxfonteditor") format("svg"); /* iOS 4.1- */
+    font-family: "Sakiso";
+    src: url("inc/fonts/SakiSO/Sakiso.eot"); /* IE9 */
+    src: url("inc/fonts/SakiSO/Sakiso.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("inc/fonts/SakiSO/Sakiso.woff") format("woff"), /* chrome、firefox */
+    url("inc/fonts/SakiSO/Sakiso.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("inc/fonts/SakiSO/Sakiso.svg#uxfonteditor") format("svg"); /* iOS 4.1- */
 }
 
 
 .icon {
-    font-family: "sakuraso" !important;
+    font-family: "Sakiso" !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
