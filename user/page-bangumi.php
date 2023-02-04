@@ -22,12 +22,12 @@ get_header();
             <?php if (akina_option('bilibili_id') ):?>
                 <div class="row">
             <?php
-                $bgm = new \Saki\API\Bilibili();
+                $bgm = new \Sakura\API\Bilibili();
                 echo $bgm->get_bgm_items(); 
             ?>
             <?php else: ?>
                 <div class="row">
-                    <p> <?php _e("Please fill in the Bilibili UID in Saki Options.","Saki"); ?></p>
+                    <p> <?php _e("Please fill in the Bilibili UID in Sakura Options.","sakura"); ?></p>
                 </div>
             <?php endif; ?>
             </section>

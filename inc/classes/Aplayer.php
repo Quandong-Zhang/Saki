@@ -1,6 +1,6 @@
 <?php
 
-namespace Saki\API;
+namespace Sakura\API;
 
 class Aplayer
 {
@@ -13,7 +13,7 @@ class Aplayer
         $this->server = akina_option('aplayer_server');
         $this->playlist_id = akina_option('aplayer_playlistid');
         $this->cookies = akina_option('aplayer_cookie');
-        $this->api_url = rest_url('Saki/v1/meting/aplayer');
+        $this->api_url = rest_url('sakura/v1/meting/aplayer');
         require('Meting.php');
     }
 
@@ -21,7 +21,7 @@ class Aplayer
         $server = $this->server;
         $cookies = $this->cookies;
         $playlist_id = $this->playlist_id;
-        $api = new \Saki\API\Meting($server);
+        $api = new \Sakura\API\Meting($server);
         if (!empty($cookies) && $server === "netease") $api->cookie($cookies);
         switch ($type) {
             case 'song':

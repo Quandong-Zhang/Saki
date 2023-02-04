@@ -46,10 +46,10 @@ if ( akina_option('theme_skin') ) { ?>
 }
 
 .changeSkin-gear,.toc{
-    background:rgba(255,255,255,<?php echo akina_option('Saki_skin_alpha','') ?>);
+    background:rgba(255,255,255,<?php echo akina_option('sakura_skin_alpha','') ?>);
 }
 
-<?php if(akina_option('entry_content_theme') == "Saki"){ ?>
+<?php if(akina_option('entry_content_theme') == "sakura"){ ?>
 .entry-content th {
     background-color: <?php echo akina_option('theme_skin'); ?>
 }
@@ -114,7 +114,7 @@ if ( akina_option('toggle-menu') == 'no') { ?>
 .comments .comments-hidden {display:none !important;}
 <?php } // comments ?>
 <?php 
-$image_api = 'background-image: url("'.rest_url('Saki/v1/image/cover').'");';
+$image_api = 'background-image: url("'.rest_url('sakura/v1/image/cover').'");';
 $bg_style = akina_option('focus_height') ? 'background-position: center center;background-attachment: inherit;' : '';
 ?>
 .centerbg{<?php echo $image_api.$bg_style ?>background-position: center center;background-attachment: inherit;}

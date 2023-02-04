@@ -1,6 +1,6 @@
 <?php
 
-namespace Saki\API;
+namespace Sakura\API;
 
 class QQ
 {
@@ -27,11 +27,11 @@ class QQ
     }
 
     public static function get_qq_avatar($encrypted) {
-        global $Saki_privkey;
+        global $sakura_privkey;
         if (isset($encrypted)) {
-            $iv = str_repeat($Saki_privkey, 2);
+            $iv = str_repeat($sakura_privkey, 2);
             $encrypted = base64_decode(urldecode($encrypted));
-            $qq_number = openssl_decrypt($encrypted, 'aes-128-cbc', $Saki_privkey, 0, $iv);
+            $qq_number = openssl_decrypt($encrypted, 'aes-128-cbc', $sakura_privkey, 0, $iv);
             preg_match('/^\d{3,}$/', $qq_number, $matches);
             $imgurl = 'https://q2.qlogo.cn/headimg_dl?dst_uin=' . $matches[0] . '&spec=100';
             return $imgurl;
