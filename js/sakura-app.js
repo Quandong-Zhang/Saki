@@ -824,7 +824,7 @@ if (mashiro_option.float_player_on) {
                         lrcType: 3,
                         listFolded: 1,
                         preload: 'auto',
-                        theme: '#2980b9',
+                        theme: '#ffb6c1',
                         loop: 'all',
                         order: 'list',
                         volume: null,
